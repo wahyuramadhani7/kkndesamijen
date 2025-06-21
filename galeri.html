@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri - KKN Desa Mijen</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-poppins text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-green-700 text-white p-4 fixed w-full top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold tracking-tight">KKN Desa Mijen</h1>
+            <ul class="flex space-x-8 text-lg">
+                <li><a href="index.html" class="hover:text-yellow-200 transition duration-300">Home</a></li>
+                <li><a href="kegiatan.html" class="hover:text-yellow-200 transition duration-300">Kegiatan</a></li>
+                <li><a href="galeri.html" class="hover:text-yellow-200 transition duration-300">Galeri</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Galeri Section -->
+    <section class="py-20 pt-32 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h3 class="text-4xl font-bold text-center mb-12 text-green-600 animate-fade-in">Galeri Kegiatan</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="relative bg-white rounded-xl shadow-lg gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Pembangunan+Irigasi" alt="Pembangunan Irigasi" class="w-full h-64 object-cover">
+                    <div class="overlay">
+                        <p class="text-white text-lg font-semibold">Pembangunan sistem irigasi tetes.</p>
+                    </div>
+                </div>
+                <div class="relative bg-white rounded-xl shadow-lg gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Kampanye+3M" alt="Kampanye 3M" class="w-full h-64 object-cover">
+                    <div class="overlay">
+                        <p class="text-white text-lg font-semibold">Kampanye 3M Plus di desa.</p>
+                    </div>
+                </div>
+                <div class="relative bg-white rounded-xl shadow-lg gallery-item">
+                    <img src="https://via.placeholder.com/400x300?text=Kelas+Anak" alt="Kelas Anak" class="w-full h-64 object-cover">
+                    <div class="overlay">
+                        <p class="text-white text-lg font-semibold">Kelas sains untuk anak-anak.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-lg">© 2025 KKN Desa Mijen. Dibuat dengan semangat untuk masyarakat.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="#" class="hover:text-yellow-300 transition duration-300">Kontak</a>
+                <a href="#" class="hover:text-yellow-300 transition duration-300">Tentang Kami</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
