@@ -5,18 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kegiatan - KKN Desa Mijen</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="bg-gray-100 font-poppins text-gray-800">
     <!-- Navbar -->
     <nav class="bg-green-700 text-white p-4 fixed w-full top-0 z-50 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-3xl font-bold tracking-tight">KKN Desa Mijen</h1>
+            <h1 class="text-3xl font-bold tracking-tight"><i class="fas fa-seedling mr-2"></i>KKN Desa Mijen</h1>
             <ul class="flex space-x-8 text-lg">
                 <li><a href="index.html" class="hover:text-yellow-200 transition duration-300">Home</a></li>
                 <li><a href="kegiatan.html" class="hover:text-yellow-200 transition duration-300">Kegiatan</a></li>
                 <li><a href="galeri.html" class="hover:text-yellow-200 transition duration-300">Galeri</a></li>
+                <li><a href="kontak.html" class="hover:text-yellow-200 transition duration-300">Kontak</a></li>
             </ul>
         </div>
     </nav>
@@ -24,19 +26,43 @@
     <!-- Kegiatan Section -->
     <section class="py-20 pt-32 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h3 class="text-4xl font-bold text-center mb-12 text-green-600 animate-fade-in">Kegiatan KKN Desa Mijen</h3>
+            <h3 class="text-4xl font-bold text-center mb-12 text-green-600 animate-fade-in">Program Kegiatan</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-xl shadow-lg card">
-                    <h4 class="text-2xl font-semibold mb-4 text-green-600">Pengentasan Kekeringan</h4>
-                    <p class="text-gray-600">Membangun sistem irigasi tetes dan edukasi pengelolaan air untuk mendukung pertanian berkelanjutan di Desa Mijen.</p>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-tint text-green-600 text-3xl mr-4"></i>
+                        <h4 class="text-2xl font-semibold text-green-600">Pengelolaan Air</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">Solusi inovatif untuk mengatasi kekeringan lahan pertanian melalui sistem irigasi modern dan konservasi air.</p>
+                    <div class="text-gray-600">
+                        <p><i class="fas fa-check mr-2"></i>Sistem Irigasi Tetes</p>
+                        <p><i class="fas fa-check mr-2"></i>Konservasi Air Hujan</p>
+                        <p><i class="fas fa-check mr-2"></i>Pemantauan Kualitas Air</p>
+                    </div>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg card">
-                    <h4 class="text-2xl font-semibold mb-4 text-green-600">Pencegahan Demam Berdarah</h4>
-                    <p class="text-gray-600">Melaksanakan kampanye 3M Plus dan penyuluhan kesehatan untuk mencegah penyebaran wabah demam berdarah.</p>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-shield-alt text-green-600 text-3xl mr-4"></i>
+                        <h4 class="text-2xl font-semibold text-green-600">Pencegahan DBD</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">Program komprehensif pencegahan demam berdarah melalui edukasi, pemantauan, dan aksi preventif.</p>
+                    <div class="text-gray-600">
+                        <p><i class="fas fa-check mr-2"></i>Edukasi Masyarakat</p>
+                        <p><i class="fas fa-check mr-2"></i>Pemantauan Jentik</p>
+                        <p><i class="fas fa-check mr-2"></i>Fogging Preventif</p>
+                    </div>
                 </div>
-                <div class="bg-white p-6 rounded-xl shadow-lg card">
-                    <h4 class="text-2xl font-semibold mb-4 text-green-600">Pendidikan Anak</h4>
-                    <p class="text-gray-600">Menyelenggarakan kelas sains, teknologi, dan seni untuk meningkatkan kreativitas dan pengetahuan anak-anak desa.</p>
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-graduation-cap text-green-600 text-3xl mr-4"></i>
+                        <h4 class="text-2xl font-semibold text-green-600">Pendidikan Anak</h4>
+                    </div>
+                    <p class="text-gray-600 mb-4">Program belajar interaktif untuk meningkatkan pengetahuan dan keterampilan anak-anak desa.</p>
+                    <div class="text-gray-600">
+                        <p><i class="fas fa-check mr-2"></i>Pembelajaran Kreatif</p>
+                        <p><i class="fas fa-check mr-2"></i>Workshop Digital</p>
+                        <p><i class="fas fa-check mr-2"></i>Bimbingan Belajar</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,10 +71,16 @@
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-10">
         <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center items-center mb-4">
+                <i class="fas fa-seedling text-2xl mr-2"></i>
+                <span class="text-xl font-bold">KKN Desa Mijen</span>
+            </div>
             <p class="text-lg">© 2025 KKN Desa Mijen. Dibuat dengan semangat untuk masyarakat.</p>
             <div class="mt-4 flex justify-center space-x-4">
-                <a href="#" class="hover:text-yellow-300 transition duration-300">Kontak</a>
-                <a href="#" class="hover:text-yellow-300 transition duration-300">Tentang Kami</a>
+                <a href="#" class="hover:text-yellow-300 transition duration-300"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-yellow-300 transition duration-300"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-yellow-300 transition duration-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-yellow-300 transition duration-300"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
     </footer>
