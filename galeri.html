@@ -22,17 +22,17 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <h1 class="logo"><i class="fas fa-seedling"></i> KKN Desa Mijen</h1>
+            <h1 class="logo text-white"><i class="fas fa-seedling"></i> KKN Desa Mijen</h1>
             <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="bg-white"></span>
+                <span class="bg-white"></span>
+                <span class="bg-white"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="kegiatan.html" class="nav-link">Kegiatan</a></li>
-                <li><a href="galeri.html" class="nav-link active">Galeri</a></li>
-                <li><a href="kontak.html" class="nav-link">Kontak</a></li>
+                <li><a href="index.html" class="nav-link text-white">Home</a></li>
+                <li><a href="kegiatan.html" class="nav-link text-white">Kegiatan</a></li>
+                <li><a href="galeri.html" class="nav-link text-white active">Galeri</a></li>
+                <li><a href="kontak.html" class="nav-link text-white">Kontak</a></li>
             </ul>
         </div>
     </nav>
@@ -41,30 +41,94 @@
     <section class="gallery-section" id="galeri">
         <div class="container">
             <div class="section-header">
-                <h3 class="section-title">Galeri Kegiatan</h3>
-                <div class="section-line"></div>
-                <p class="section-subtitle">Dokumentasi kegiatan KKN Desa Mijen untuk pemberdayaan masyarakat.</p>
+                <h3 class="section-title text-3xl md:text-4xl font-bold text-white bg-gray-800 px-4 py-2 rounded">Galeri Kegiatan</h3>
+                <div class="section-line bg-gray-800 h-1 w-16 mx-auto my-4"></div>
+                <p class="section-subtitle text-lg text-white">Dokumentasi kegiatan KKN Desa Mijen untuk pemberdayaan masyarakat.</p>
             </div>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-in">
-                    <img src="https://via.placeholder.com/400x300?text=Pembangunan+Irigasi" alt="Pembangunan Irigasi" class="w-full h-full object-cover">
-                    <div class="gallery-overlay">
-                        <h4>Pembangunan Irigasi</h4>
-                        <p>Pembangunan sistem irigasi tetes untuk lahan pertanian.</p>
+
+            <!-- Penanganan Kekeringan -->
+            <div class="gallery-theme mb-12">
+                <h4 class="theme-title text-2xl md:text-3xl font-bold text-white bg-gray-800 px-4 py-2 rounded mb-4">Penanganan Kekeringan</h4>
+                <p class="theme-description text-lg text-white mb-6">Inisiatif untuk mengatasi kekeringan melalui pembangunan sistem irigasi dan konservasi air.</p>
+                <div class="gallery-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Kegiatan survey lokasi </h4>
+                            <img src="./gallery/kekeringan1.jpg" alt="Pembangunan Irigasi Tetes" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Kegiatan survey lokasi pemasangan Tandon di RW 2 kecamatan Mijen, Demak.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Penampungan Air Hujan</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Penampungan+Air+Hujan" alt="Penampungan Air Hujan" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Pembangunan reservoir air hujan untuk mendukung kebutuhan air warga.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Edukasi Konservasi Air</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Edukasi+Konservasi+Air" alt="Edukasi Konservasi Air" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Pelatihan warga dan anak-anak tentang pentingnya konservasi air.</p>
                     </div>
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="./gallery/fotomijen1.jpg" alt="Kampanye 3M" class="w-full h-full object-cover">
-                    <div class="gallery-overlay">
-                        <h4>Kampanye 3M</h4>
-                        <p>Kampanye 3M Plus untuk pencegahan demam berdarah.</p>
+            </div>
+
+            <!-- Mencegah Wabah Demam Berdarah -->
+            <div class="gallery-theme mb-12">
+                <h4 class="theme-title text-2xl md:text-3xl font-bold text-white bg-gray-800 px-4 py-2 rounded mb-4">Mencegah Wabah Demam Berdarah</h4>
+                <p class="theme-description text-lg text-white mb-6">Kampanye dan aksi nyata untuk mencegah penyebaran demam berdarah melalui pendekatan 3M Plus.</p>
+                <div class="gallery-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Kampanye 3M Plus</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Kampanye+3M+Plus" alt="Kampanye 3M Plus" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Sosialisasi 3M Plus kepada masyarakat untuk pencegahan demam berdarah.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Pembersihan Selokan</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Pembersihan+Selokan" alt="Pembersihan Selokan" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Kegiatan gotong royong membersihkan selokan di Desa Mijen.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Penaburan Abate</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Penaburan+Abate" alt="Penaburan Abate" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Penaburan abate untuk mengendalikan jentik nyamuk di lingkungan warga.</p>
                     </div>
                 </div>
-                <div class="gallery-item fade-in">
-                    <img src="./gallery/fotomijen1.jpg" alt="Kampanye 3M" class="w-full h-full object-cover">
-                    <div class="gallery-overlay">
-                        <h4>Kampanye 3M</h4>
-                        <p>Kampanye 3M Plus untuk pencegahan demam berdarah.</p>
+            </div>
+
+            <!-- Meningkatkan Ilmu Pengetahuan Anak-anak -->
+            <div class="gallery-theme">
+                <h4 class="theme-title text-2xl md:text-3xl font-bold text-white bg-gray-800 px-4 py-2 rounded mb-4">Meningkatkan Ilmu Pengetahuan Anak-anak</h4>
+                <p class="theme-description text-lg text-white mb-6">Pendidikan inovatif dan berkelanjutan untuk anak-anak melalui kegiatan belajar yang menyenangkan.</p>
+                <div class="gallery-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Kunjungan ke SDN 1 Mijen</h4>
+                            <img src="./gallery/sekolah1.jpg" alt="Kelas Sains Interaktif" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Sowan Ke Kepala Sekolah SDN 1 Mijen dalam rangka pembelajaran anak.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Perpustakaan Keliling</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Perpustakaan+Keliling" alt="Perpustakaan Keliling" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Program perpustakaan bergerak untuk mendukung literasi anak-anak.</p>
+                    </div>
+                    <div class="gallery-block">
+                        <div class="gallery-item fade-in">
+                            <h4 class="text-xl font-semibold text-white bg-gray-800 px-3 py-1 rounded mb-2">Workshop Teknologi</h4>
+                            <img src="https://via.placeholder.com/400x300?text=Workshop+Teknologi" alt="Workshop Teknologi" class="w-full h-64 object-cover rounded-lg">
+                        </div>
+                        <p class="text-base text-white mt-2">Pelatihan teknologi dasar untuk mengenalkan inovasi kepada anak-anak.</p>
                     </div>
                 </div>
             </div>
@@ -74,25 +138,25 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
-            <div class="footer-logo">
+            <div class="footer-logo text-white">
                 <i class="fas fa-seedling"></i>
                 <span>KKN Desa Mijen</span>
             </div>
-            <p>© 2025 KKN Desa Mijen. Dibuat dengan semangat untuk masyarakat.</p>
+            <p class="text-white">© 2025 KKN Desa Mijen. Dibuat dengan semangat untuk masyarakat.</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Built with passion for community empowerment</p>
+            <p class="text-white">Built with passion for community empowerment</p>
         </div>
     </footer>
 
     <!-- Back to Top Button -->
-    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+    <button class="back-to-top text-white" id="backToTop"><i class="fas fa-arrow-up"></i></button>
 
     <script src="js/script.js"></script>
 </body>

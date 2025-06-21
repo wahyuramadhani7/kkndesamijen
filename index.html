@@ -10,14 +10,24 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Animated Background -->
-    <div class="animated-bg">
-        <div class="floating-particles" id="particles"></div>
-        <div class="geometric-shape shape-1"></div>
-        <div class="geometric-shape shape-2"></div>
-        <div class="geometric-shape shape-3"></div>
-        <div class="geometric-shape shape-4"></div>
-    </div>
+    <style>
+/* Styling for the background image */
+.animated-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./gallery/bgmijen.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Ensure it stays behind other content */
+}
+</style>
+
+<!-- Background with Image -->
+<div class="animated-bg"></div>
 
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
@@ -41,7 +51,7 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <h1 class="hero-title text-reveal">Pemberdayaan Masyarakat Desa Mijen</h1>
-            <p class="hero-subtitle">Mengatasi kekeringan lahan pertanian, mencegah wabah demam berdarah, dan meningkatkan ilmu pengetahuan anak-anak melalui pendekatan inovatif dan berkelanjutan.</p>
+            <p class="hero-subtitle">Penanganan Kekeringan, mencegah wabah demam berdarah, dan meningkatkan ilmu pengetahuan anak-anak melalui pendekatan inovatif dan berkelanjutan.</p>
             <a href="kegiatan.html" class="cta-button"><i class="fas fa-arrow-right"></i> Jelajahi Kegiatan</a>
         </div>
         <div class="scroll-indicator">
@@ -62,19 +72,19 @@
                 <div class="about-card fade-in">
                     <div class="card-icon"><i class="fas fa-heart"></i></div>
                     <h3>Misi Kami</h3>
-                    <p>KKN Desa Mijen adalah inisiatif untuk memberdayakan masyarakat melalui solusi berkelanjutan dalam tiga fokus utama: pengelolaan air untuk lahan pertanian, pencegahan wabah demam berdarah, dan pendidikan anak-anak.</p>
+                    <p>KKN Desa Mijen adalah inisiatif untuk memberdayakan masyarakat melalui solusi berkelanjutan dalam tiga fokus utama: penanganan kekeringan lahan, pencegahan wabah demam berdarah, dan pendidikan anak-anak.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item fade-in">
-                        <div class="stat-number" data-target="50">0</div>
-                        <div class="stat-label">Keluarga Terdampak</div>
+                        <div class="stat-label" data-target="50">Sasaran</div>
+                        <div class="stat-label">Seluruh Masyaraat Desa</div>
                     </div>
                     <div class="stat-item fade-in">
-                        <div class="stat-number" data-target="15">0</div>
-                        <div class="stat-label">Program Kegiatan</div>
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Program Kegiatan Utama</div>
                     </div>
                     <div class="stat-item fade-in">
-                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-number" data-target="50++">0</div>
                         <div class="stat-label">Anak Teredukasi</div>
                     </div>
                 </div>
